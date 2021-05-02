@@ -24,7 +24,7 @@ function randomBg() {
 
 function randomQuote() {
     var quoteText = document.getElementById("quote");
-    fetch('http://ron-swanson-quotes.herokuapp.com/v2/quotes')
+    fetch('https://ron-swanson-quotes.herokuapp.com/v2/quotes')
     .then(response => response.json())
     .then(data => {
         quoteText.innerText = data[0] + "\n- Ron Swanson";
