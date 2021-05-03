@@ -1,7 +1,7 @@
 # RON SWANSON
 
 *Displays a sample array of beautiful images from the nature section at Unsplash  
-together with brilliant quotes from Ron Swanson!*
+together with brilliant quotes from the man, the myth, the legend, Ron Swanson!*
 
 
 ## Api:  
