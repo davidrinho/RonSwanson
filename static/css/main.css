@@ -16,7 +16,12 @@ body {
     margin: auto;
     font-family: 'Kaushan Script', cursive;
     font-size: 4em;
-    color: rgb(62, 62, 63)
+    color: rgb(62, 62, 63);
+    animation: fadeIn linear 7s;
+    -webkit-animation: fadeIn linear 7s;
+    -moz-animation: fadeIn linear 7s;
+    -o-animation: fadeIn linear 7s;
+    -ms-animation: fadeIn linear 7s;
 }
 
 #newBtn {
@@ -30,4 +35,31 @@ body {
 
 #newBtn:hover {
     color: black;
+}
+
+
+  
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
